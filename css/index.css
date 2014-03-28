@@ -220,3 +220,29 @@ i.fa {
 	background-color:#2AB573 !important;
 	height:40px;
 }
+
+/*FOR SMALLER SCREENS*/
+@media all and (max-width: 50em) {
+	nav.navbar {
+		height: 66px;
+	}
+
+	.navbar-toggle {
+		margin-top:0;
+	}
+
+	.orangeBox {
+		width:80px;
+		height:65px;
+		z-index:10000;
+	}
+
+	.orangeBox > img {
+		height: 50px;
+		margin-top: 5px;
+	}
+
+	.orangeBoxPoint {
+		display:none;
+	}
+}

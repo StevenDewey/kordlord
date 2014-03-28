@@ -1,0 +1,33 @@
+.contentSection {
+	padding-bottom:40px;
+}
+
+.right-content > img {
+	width:100%;
+	height:auto;
+	max-width:400px;
+}
+
+.left-content > p {
+	text-align: left;
+}
+
+.magnetSection {
+	padding-top:40px;
+	text-align: left;
+}
+
+.magnetImage {
+	text-align: center;
+}
+
+.magnetImage > img {
+	width:100%;
+	height:auto;
+	max-width:500px;
+}
+
+.magnetText > h3 {
+	margin-top:0px;
+	text-align: center;
+}
