@@ -1,0 +1,17 @@
+.contentSection > p {
+	text-align: left;
+}
+
+.woodTypes > div > img {
+	height:200px;
+}
+
+.dimensionImages > img {
+	width:100%;
+	max-width:400px;
+	margin-bottom:20px;
+}
+
+.sizeText {
+	text-align: left;
+}
