@@ -1,0 +1,186 @@
+
+
+body > * {
+	/*font-family: 'Lato', sans-serif;*/
+	font-style:  normal;
+	font-weight: 300;
+}
+
+img {
+	-moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+button{
+	border:none;
+	padding:0px;
+	background-color: transparent;
+	cursor:pointer;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+nav {
+
+}
+
+nav.navbar {
+	vertical-align: middle;
+	padding: 15px 15px;
+	background-color: #FFF;
+	color: #000;
+	border-radius: 0px;
+	height: 80px;
+	margin-bottom:0px;
+	z-index:1000;
+}
+
+.navbar-collapse {
+	background-color: #FFF;
+	margin-left:-31px !important;
+	margin-right:-31px !important;
+}
+
+.orangeBox {
+	position:absolute;
+	top:0px;
+	left:50px;
+	width:150px;
+	height:80px;
+	text-align: center;
+	background-color:#F16521;
+}
+
+.orangeBox > img {
+	height:80px;
+	width:auto;
+}
+
+.orangeBoxPoint {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	width: 0;
+	height: 0;
+	vertical-align: top;
+	border-top: 40px solid #F16521;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+	content: "";
+}
+
+.heroImage {
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.heroImage > img {
+	width:100%;
+}
+
+.navbar-brand {
+	padding-top:10px;
+	color:#000;
+	font-size:27px;
+}
+.navbar-brand:hover {
+	color:#000;
+}
+
+.navbar-brand-logo {
+	height:30px;
+}
+
+.icon-bar {
+	background-color: #000;
+}
+
+.navLink {
+	color:#000;
+	font-size:19px;
+}
+.navLink:hover {
+	color:#000;
+	background-color: transparent !important;
+}
+
+.siteDetail {
+	position: relative;
+	background-color: #FFF;
+	margin-top: 500px;
+	z-index: 200;
+	text-align: center;
+	padding-top:40px;
+}
+
+.siteDetail > div {
+	background-color: #FFF;
+}
+
+.downArrow {
+	position:absolute;
+	top:-30px;
+	margin-left:-25px;
+}
+
+.left-image {
+	margin-bottom:20px;
+}
+
+.left-image > img {
+	width:100%;
+	height:auto;
+}
+
+.buyNowButton {
+	background-color: #F16521;
+	width:100%;
+	margin-bottom:20px;
+}
+.buyNowButton > h2 {
+	color:#FFF;
+	margin:0;
+}
+.buyNowButton > h2:before {
+    padding-top: 10%;
+    display: block;
+    content: '';
+}
+.buyNowButton > h2:after {
+    padding-bottom: 10%;
+    display: block;
+    content: '';
+}
+
+.fourKordLords {
+	text-align: center;
+	background-color: #8E8F8F;
+}
+.fourKordLords > h2:before {
+    padding-top: 10%;
+    display: block;
+    content: '';
+}
+.fourKordLords > h2 {
+	color:#FFF;
+	margin:0;
+}
+.fourKordLords > h2:after {
+    padding-top: 10%;
+    display: block;
+    content: '';
+}
+
+.contentContainer {
+	text-align: left;
+}
