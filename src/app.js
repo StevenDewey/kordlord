@@ -1,4 +1,4 @@
-$(window).on('resize', function() {
+/*$(window).on('resize', function() {
 	var container = $('#topDetail');
 	var height = $(window).height();
 	var imgHeight = $("#heroSection").height();
@@ -10,4 +10,4 @@ $(window).on('resize', function() {
 		container.css({marginTop: (imgHeight-80)});
 	}
 
-}).trigger('resize');
+}).trigger('resize');*/
