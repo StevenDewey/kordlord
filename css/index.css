@@ -105,13 +105,25 @@ nav.navbar {
 	content: "";
 }
 
+/*.landingtext {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}*/
+
 .heroImage {
 	/*position:fixed;
 	top:0px;*/
 	width:100%;
 }
 .heroImage > img {
-	width:100%;
+	width:60%;
+
+}
+
+.homeimage {
+
+	margin-bottom: 100px;
 }
 
 .navbar-brand {

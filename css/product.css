@@ -15,3 +15,8 @@
 .sizeText {
 	text-align: left;
 }
+
+.landingpic > img {
+	width: 100%;
+
+}
