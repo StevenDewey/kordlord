@@ -126,6 +126,8 @@ nav.navbar {
 	margin-bottom: 100px;
 }
 
+.potential {background-color: grey; margin-top:30px; width: 200px; text-align: center; margin: auto; margin-top: 200px}
+
 .navbar-brand {
 	padding-top:10px;
 	color:#000;
